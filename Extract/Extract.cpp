@@ -5,7 +5,7 @@
 #include <map>
 #include <filesystem>
 #include <map>
-
+#include <chrono>
 const std::map<uint64_t, std::string> HASH_DICT = {
     {0x0007e8b6067b7f4f, "LEVELS\\L_1_5\\SECTIONS\\s_24.rws"},
     {0x000dcbe63948f7d3, "SB_AWD\\120_149\\ENGLISH\\PS2_0128.awd"},
@@ -10205,7 +10205,7 @@ void extract_pak(const std::string& inpath, const std::string& outpath = "") {
         return;
     }
 
-    std::string signature("Spark Pack (C)2004 Spark Unlimited, Inc. Author Jim Schuler.");
+    const std::string signature("Spark Pack (C)2004 Spark Unlimited, Inc. Author Jim Schuler.");
     std::string file_signature(signature.size(), ' ');
     file.read(&file_signature[0], signature.size());
 
@@ -10259,8 +10259,10 @@ int main() {
     std::string output_path;
     std::cout << "Enter the output directory path (leave empty for the same directory): ";
     std::getline(std::cin, output_path);
-
+    auto start = std::chrono::high_resolution_clock::now();
     extract_pak(input_path, output_path);
-
+    auto stop = std::chrono::high_resolution_clock::now();
+    std::cout << "Time taken to extract files:" << std::chrono::duration_cast<std::chrono::microseconds>(stop - start).count() << "us" << std::endl;
+    system("pause");
     return 0;
 }
