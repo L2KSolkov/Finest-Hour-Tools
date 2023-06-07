@@ -169,6 +169,7 @@ const std::map<uint64_t, std::string> HASH_DICT = {
     {0x03752a781c601374, "SB_AWD\\90_119\\SPANISH\\XBX_0110.awd"},
     {0x037b547e7de0a40f, "SB_AGD\\240_269\\FRENCH\\NGC_0257.agd"},
     {0x0387a524b39508d9, "LEVELS\\L_2_1\\SECTIONS\\s_10.rws"},
+    {0x0390ea7b0b469d14, "NetworkDisconnectWarning.layout"},
     {0x039a36306753c837, "SB_AGD\\210_239\\FRENCH\\PS2_0234.agd"},
     {0x03a7bcfc6c1a942a, "SB_AGD\\150_179\\FRENCH\\PS2_0172.agd"},
     {0x03aa11f6b50101aa, "SB_AGD\\120_149\\SPANISH\\NGC_0124.agd"},

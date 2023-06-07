@@ -11,7 +11,7 @@ uint64_t spark_hash(std::string str) {
         str = str.substr(0, semicolonIndex);
     }
     for (char chr : str) {
-        hash = static_cast<uint64_t>(chr) ^ ((hash << 40) + hash * 0x1B3) & 0xFFFFFFFFFFFFFFFF;
+        hash = static_cast<uint64_t>(chr) ^ (hash << 40) + (hash * 0x1B3);
 
     }
     return hash;
