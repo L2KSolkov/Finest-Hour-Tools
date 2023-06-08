@@ -227,6 +227,7 @@ const std::map<uint64_t, std::string> HASH_DICT = {
     {0x04c1bc0e45111d8a, "SB_AWD\\180_209\\GERMAN\\XBX_0190.awd"},
     {0x04c36014ad1cb0ac, "SB_AWD\\30_59\\FRENCH\\NGC_0030.awd"},
     {0x04c9312855069d2c, "SB_AWD\\60_89\\ENGLISH\\PS2_0064.awd"},
+    {0x04caf4ca5d461947, "IngameControlsSelect.layout"},
     {0x04e14ac5c590fac5, "SB_AWD\\180_209\\SPANISH\\PS2_0208.awd"},
     {0x04e25908f5ca1026, "SB_AWD\\0_29\\SPANISH\\PS2_0008.awd"},
     {0x04e74b0be26e33a0, "SB_AWD\\30_59\\ENGLISH\\PS2_0057.awd"},
