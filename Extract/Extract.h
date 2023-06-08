@@ -4366,6 +4366,7 @@ const std::map<uint64_t, std::string> HASH_DICT = {
     {0x6e0d49871aa63134, "SB_AGD\\0_29\\FRENCH\\NGC_0018.agd"},
     {0x6e138a5650dfe888, "SB_AWD\\180_209\\GERMAN\\NGC_0208.awd"},
     {0x6e15ee2e1a6a84a7, "SB_AWD\\90_119\\FRENCH\\NGC_0117.awd"},
+    {0x6e1cfef046f5ae58, "DebugPauseMenu.layout"},
     {0x6e1fbe80e03b1bf8, "SB_AWD\\210_239\\GERMAN\\XBX_0229.awd"},
     {0x6e24616efaf4314f, "SB_AWD\\60_89\\ENGLISH\\NGC_0062.awd"},
     {0x6e2a74aa950f33dc, "SB_AWD\\0_29\\ENGLISH\\XBX_0016.awd"},
