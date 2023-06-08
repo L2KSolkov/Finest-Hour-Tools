@@ -8830,6 +8830,7 @@ const std::map<uint64_t, std::string> HASH_DICT = {
     {0xde6fc2417e05acdb, "SB_AGD\\180_209\\SPANISH\\NGC_0197.agd"},
     {0xde6ffb9b57e4d44d, "ANIMGRPS\\Lvl_25\\Lvl_25T.ads"},
     {0xde74d0626e49ab8f, "SB_AGD\\60_89\\GERMAN\\PS2_0087.agd"},
+    {0xde8028db05c611dc, "PlayOnlineBase.layout"},
     {0xde9158c2622ee78a, "SB_AGD\\30_59\\GERMAN\\XBX_0047.agd"},
     {0xde98480546d63e7b, "SB_AGD\\60_89\\ENGLISH\\PS2_0089.agd"},
     {0xde9dc54f85939ddf, "SB_AGD\\90_119\\SPANISH\\PS2_0091.agd"},
